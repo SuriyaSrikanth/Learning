@@ -1,1 +1,2 @@
 git clone RepoURL -- repo clone
+git add --all --- add
