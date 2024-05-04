@@ -1,10 +1,24 @@
 git clone RepoURL - repo clone
 // default branch is main
-git checkout -b <branchname> -> To Create new branch and move to that created branch
-git checkout <branchname> -> Move to the branch
+git checkout -b <branchname> -> To Create clone branch and move to that created branch
+git checkout <branchname> -> Move to the next branch
 git add --all -> add
-git add <file1path> <file2path> --> add specific files
-git commit -am "First Commit"   -> commit message
-git push origin <branchname>  -> push to particular branch
+git add . -> This command is to add the current directory/file
+git add <file1path> <file2path> -> add specific files
+git commit -am "First Commit" -> commit message
+git push origin <branchname> -> push to particular branch
 git pull origin <branchname> -> to pull latest changes in the branch
+git checkout - -> Go to previous branch
+git rebase <branch name> -> Get all content from the given <branch name> to current branch, They will be some conflict need to commit that
+git rebase --continue -> After resolving the first commit use this command to check the other commits and resolve it.
+git rebase --abort -> We can abort the rebase changes by using this command.
+git push origin <branch name> -f -> Once rabase was done we need to do force push by using this command
+git diff <branch name> -> To check the difference between current branch and given branch
+
 dir -- list of folders/file
+ls -> list the files
+ls -al -> List all the files
+clear -> to clear the terminal
+
+Everytime when we work on Visual Studio Code we have pull the latest content from the git.
+If there is a changes in na file then use add,commit and push. If there is no changes directly push to git
