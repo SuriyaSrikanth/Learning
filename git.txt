@@ -1,5 +1,5 @@
-git clone RepoURL -- repo clone
-git add --all --- add
+git clone RepoURL - repo clone
+git add --all -> add
 git commit -am "First Commit"   -> commit message
 git push origin <branchname>  -> push to particular branch
 dir -- list of folders/file
