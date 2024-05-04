@@ -1,8 +1,10 @@
 git clone RepoURL - repo clone
 // default branch is main
-git checkout -b <branchname> 
+git checkout -b <branchname> -> To Create new branch and move to that created branch
+git checkout <branchname> -> Move to the branch
 git add --all -> add
 git add <file1path> <file2path> --> add specific files
 git commit -am "First Commit"   -> commit message
 git push origin <branchname>  -> push to particular branch
+git pull origin <branchname> -> to pull latest changes in the branch
 dir -- list of folders/file
