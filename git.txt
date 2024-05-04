@@ -7,7 +7,7 @@ git add . -> This command is to add the current directory/file
 git add <file1path> <file2path> -> add specific files
 git commit -am "First Commit" -> commit message
 git push origin <branchname> -> push to particular branch
-git pull origin <branchname> -> to pull latest changes in the branch
+git pull origin <branchname> -> to pull latest changes from git to the current branch
 git checkout - -> Go to previous branch
 git rebase <branch name> -> Get all content from the given <branch name> to current branch, They will be some conflict need to commit that
 git rebase --continue -> After resolving the first commit use this command to check the other commits and resolve it.
